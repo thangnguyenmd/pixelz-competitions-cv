@@ -1,2 +1,3 @@
-# competitions_cv
-Code for Pixelz's Inc computer vision competitions
+# Pixelz's Copmuter Vision Competition repository
+
+You will find here the description and some code for the competitions of [Pixelz](pixelz.com)
