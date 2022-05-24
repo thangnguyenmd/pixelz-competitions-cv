@@ -13,7 +13,7 @@ Your task is to devise an algorithm that can link the parts of the original conn
 ## Task requirements
 Here is a more precise set of task requirements:
 - We use 8 connected neighbors
-- The split CCs must be linked by a single pixel wide curve
+- The split CCs must be linked by a single pixel wide curve that is **inside** the original connected component.
 - While the object of the competition is not about optimization, it is still expected that the algorithm should provide reasonably good solutions in terms of the number of pixels added. Said otherwise, try to have links as short as possible (but you won't be penalized if they are not the shortest possible ones).
 - You are not allowed to use hardcoded or (pre)trained variables in the solution. Comparing values with 0 to check their sign or angles with multiples of Pi/2 to check quadrant orientation in order to properly handle trigonometry functions is ok.
 - Not a hard requirement but the solution should run reaonsably fast (definitely less than a minute)
