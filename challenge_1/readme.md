@@ -8,7 +8,7 @@ In the realm of computer vision, many tasks do not require AI to be performed an
 This challenge is one such case. The input generator will create a binary image with connected components. It will also provide you with a label image for these connected components. And it will provide a version of the same image where the connected componenents have undergone some sort of erosion and have been split into multiple connected components.
 
 
-Your task is to devise an algorithm that can link the parts of the original connected components into their original single connected component (there can still be several connected components in the result image as there were in the original image).
+Your task is to devise an algorithm that can link the parts of the original connected components into their original single connected component (there can still be several connected components in the result image as there were in the original image). To achieve this you can use all the files created by the input generator (original binary image, label image and image with split connected components).
 
 ## Task requirements
 Here is a more precise set of task requirements:
